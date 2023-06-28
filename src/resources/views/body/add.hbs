@@ -1,0 +1,60 @@
+<head>
+    <title>Thêm điều khoản</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/edit_remove.css">
+</head>
+
+<div class="container js-modalContainer ">
+    <div class="road">
+        <i class="fa-solid fa-house"></i>
+        <a href="/home">Trang chủ /</a>
+        <a href="/home/admin">Admin /</a>
+        <a href="#">Thêm điều khoản /</a>
+    </div>
+
+    <form class="add" method="POST" action="/home/admin/store">
+
+        <h1 style="display: flex; justify-content: center; padding: 20px">Thêm điều khoản</h1>
+
+        <div class="form-group">
+            <label for="content">Nội dung:</label>
+            <textarea type="text" class="form-control" id="content" name="content"  placeholder="Nhập vào nội dung..."></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="chuong">Chương:</label>
+            <input type="text" class="form-control" id="chuong" name="chuong"  placeholder="Nhập vào Chương..." >
+        </div>
+
+        <div class="form-group">
+            <label for="khoan">Khoản:</label>
+            <input type="text" class="form-control" id="khoan" name="khoan"  placeholder="Nhập vào Khoản...">
+        </div>
+
+        <div class="form-group">
+            <label for="dieu">Điều:</label>
+            <input type="text" class="form-control" id="dieu" name="dieu"  placeholder="Nhập vào Điều...">
+        </div>
+
+        <div class="form-group">
+            <label for="muc">Mục:</label>
+            <input type="text" class="form-control" id="muc" name="muc"  placeholder="Nhập vào Mục...">
+        </div>
+
+        <div class="form-group">
+            <label for="priceabove">Mức phạt trên:</label>
+            <input type="text" class="form-control" id="priceabove" name="priceabove"  placeholder="Nhập vào Mức Phạt trên...">
+        </div>
+
+        <div class="form-group">
+            <label for="pricebelow">Mức phạt dưới:</label>
+            <input type="text" class="form-control" id="pricebelow" name="pricebelow"  placeholder="Nhập vào Mức Phạt dưới...">
+        </div>
+        <div class="btnFuntion">
+            <a style="text-decoration: none;" href="/home/admin">
+                <input class="btn" type="button" value="Thoát"/>
+            </a>
+            <input class="btn btn--success" type="submit" onclick="showSuccessToast()" value="Thêm Văn bản"/>     
+        </div>
+    </form>
+</div>

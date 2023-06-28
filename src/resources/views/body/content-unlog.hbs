@@ -1,0 +1,205 @@
+<head><title>Chi tiết nội dung</title></head>
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .wrap-content {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            padding: 100px 100px 25px 100px;
+        }
+
+        .content {
+            box-shadow: 0 1px 8px 0 rgb(0 0 0 / 50%);
+            -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%);
+            -moz-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+            height: 850px;
+            width: 70%;
+        }
+
+        .content2{
+             margin-left: 3%;
+            height: 100%;
+            box-shadow: 0 1px 8px 0 rgb(0 0 0 / 50%);
+            -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%);
+            -moz-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+            width: 26%;
+             text-align: center;
+            font-weight: 700;
+            border-radius: 2px;
+                    background-color: var(--box-background);
+            color: var(--text-color);
+            opacity: 0.9;
+                }
+
+                .content2 .favorite {
+            box-shadow: 0 1px 8px 0 rgb(0 0 0 / 50%);
+            -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%);
+            -moz-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .content2 .favorite span:first-child {
+            background-color: var(--tittle-box);
+            display: block;
+            height: 2em;
+            padding: 5px 0;
+        }
+
+        .content2-slide {
+            width: 100%;
+            display: flex;
+            margin: 15px 15px;
+        }
+
+        .content2-slide>img {
+            width: 85px;
+            height: 75px;
+            border-radius: 5px;
+        }
+
+        .content2-slide>span {
+            width: 50%;
+            margin-left: 5%;
+            border-bottom: solid 1px #e6e6e6;
+            font-weight: 500;
+        }
+
+        .content2 .more {
+            box-shadow: 0 1px 8px 0 rgb(0 0 0 / 50%);
+            -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%);
+            -moz-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .content2 .more span {
+            background-color: var(--tittle-box);
+            display: block;
+            height: 2em;
+            padding: 5px 0;
+        }
+
+        .content2 .more li {
+            margin: 6px 0 0 0;
+            text-align: start;
+            padding: 0 0 15px 10px;
+            border-bottom: solid 1px #e6e6e6;
+            font-weight: 500;
+        }
+
+
+        h2,
+        h3,
+        h4 {
+            padding: 10px;
+        }
+
+        table,
+        th,
+        td {
+            border: 2.28px solid black;
+            border-collapse: collapse;
+            text-align: left;
+            padding: 7px;
+        }
+
+        table {
+            margin: auto;
+            text-align: center;
+            width: 90%;
+        }
+
+        
+    </style>
+
+</head>
+<div class="wrap-content">
+    <div class="content">
+        <h2>
+            NGHỊ ĐỊNH_{{law.chuong}}_{{law.muc}}_{{law.dieu}}_{{law.khoan}} quy định:
+        <h3>
+            THUỘC TÍNH  NGHỊ ĐỊNH_{{law.chuong}}_{{law.muc}}_{{law.dieu}}_{{law.khoan}}:
+        </h3>
+        <h4>T NGHỊ ĐỊNH_{{law.chuong}}_{{law.muc}}_{{law.dieu}}_{{law.khoan}} của Bộ Lâm Nghiệp quy định căn cứ theo chương {{law.chuong}} - điều {{law.dieu}} - khoản {{law.khoan}} - mục {{law.muc}} như sau:
+        </h4>
+
+        <table>
+            <tr>
+                <th>Chương</th>
+                <td>{{law.chuong}}</td>
+                <th>Mức phạt trên:</th>
+                <td>{{law.priceabove}}</td>
+            </tr>
+            <tr>
+                <th>Mục</th>
+                <td>{{law.muc}}</td>
+                <th>Mức phạt dưới:</th>
+                <td>{{law.pricebelow}}</td>
+            </tr>
+            <tr>
+                <th>Điều</th>
+                <td>{{law.dieu}}</td>
+                <th>Áp dụng:</th>
+                <td>{{law.apdung}}</td>
+            </tr>
+            <tr>
+                <th>Khoản</th>
+                <td>{{law.khoan}}</td>
+                <th>Hiệu lực:</th>
+                <td>{{law.hieuluc}}</td>
+            </tr>
+
+        </table>
+
+        <div class="details-content">
+            <h2>Nội dung nghị định</h2>
+            <h4 style="padding:10px; line-height:20px; font-weight: 600;">{{law.content}}</h4>
+        </div>
+    </div>
+    <div class="content2">
+        <div class="favorite">
+            <span>Đang được quan tâm</span>
+            <hr />
+            <div class="content-2-slide">
+                <img src="/img/rung2.jpg" alt="" />
+                <span>Bảo tồn các vườn quốc gia phải đặt con người làm trung
+                    tâm</span>
+            </div>
+        
+            <div class="content-2-slide">
+                <img src="/img/rung1.jpg" alt="" />
+                <span>Phát triển nghề rừng bền vững là hạt nhân của tăng trưởng
+                    xanh</span>
+            </div>
+        
+            <div class="content-2-slide">
+                <img src="/img/rung3.jpg" alt="" />
+                <span>Ảnh hiếm về bộ lạc sống như thời nguyên thủy trong rừng
+                    Amazon</span>
+            </div>
+        
+            <div class="content-2-slide">
+                <img src="/img/rung4.jpg" alt="" />
+                <span>Chủ động đối phó với "giặc lửa"</span>
+            </div>
+        </div>
+        
+        {{!-- Văn bản xem nhiều nhất --}}
+        <div class="more">
+            <span>Văn bản xem
+                nhiều</span>
+            <li href="">Thông báo 5034/TB-LĐTBXH 2022 nghỉ tết Âm lịch và nghỉ lễ Quốc khánh năm 2023 đối với cán
+                bộ, công chức, viên chức và
+                người lao động</li> <br>
+            <li href="">Hướng dẫn 05-HD/UBKTTW 2022 thực hiện một số điều trong Quy định 69-QĐ/TW</li><br>
+            <li href="">Công văn 8056/VPCP-KGVX 2022 nghỉ Tết Âm lịch và nghỉ lễ Quốc khánh năm 2023</li><br>
+            <li href="">Quyết định 4610/QĐ-UBND Hà Nội 2022 phương án ủy quyền trong giải quyết TTHC</li><br>
+            <li href="">"Công văn 3796/SGDĐT-CTTT TP.HCM 2022 công tác quản lý công trình vệ sinh trong cơ sở giáo
+                dục
+                "</li>
+        </div>
+    </div>
+</div>

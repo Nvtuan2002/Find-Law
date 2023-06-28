@@ -1,0 +1,61 @@
+<head>
+    <title>Chỉnh sửa điều khoản</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/edit_remove.css">
+</head>
+
+<div class="container js-modalContainer ">
+    <div class="road">
+        <i class="fa-solid fa-house"></i>
+        <a href="/home">Trang chủ /</a>
+        <a href="/home/admin">Admin /</a>
+        <a href="#">Thêm điều khoản /</a>
+    </div>
+
+    <form class="add" method="POST" action="/home/admin/edit/{{law._id}}?_method=PUT">
+        <h1 style="display: flex; justify-content: center; padding: 20px">Chỉnh sửa điều khoản</h1>
+
+        <div class="form-group">
+            <label for="content">Nội dung:</label>
+            <textarea type="text" class="form-control" id="content" name="content">{{law.content}}</textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="chuong">Chương:</label>
+            <input type="text" class="form-control" id="chuong" name="chuong" value="{{law.chuong}}">
+        </div>
+
+        <div class="form-group">
+            <label for="khoan">Khoản:</label>
+            <input type="text" class="form-control" id="khoan" name="khoan" value="{{law.khoan}}">
+        </div>
+
+        <div class="form-group">
+            <label for="dieu">Điều:</label>
+            <input type="text" class="form-control" id="dieu" name="dieu" value="{{law.dieu}}">
+        </div>
+
+        <div class="form-group">
+            <label for="muc">Mục:</label>
+            <input type="text" class="form-control" id="muc" name="muc" value="{{law.muc}}">
+        </div>
+
+        <div class="form-group">
+            <label for="priceabove">Mức phạt trên:</label>
+            <input type="text" class="form-control" id="priceabove" name="priceabove" value="{{law.priceabove}}">
+        </div>
+
+        <div class="form-group">
+            <label for="pricebelow">Mức phạt dưới:</label>
+            <input type="text" class="form-control" id="pricebelow" name="pricebelow" value="{{law.pricebelow}}">
+        </div>
+        <div class="btnFuntion">
+            <a style="text-decoration: none;" href="/home/admin">
+                <input class="btn" type="button" value="Thoát" />
+            </a>
+            
+            <input class="btn" type="submit" value="Cập nhật" onclick="showSuccessToast1()"/>
+        </div>
+    </form>
+</div>
+

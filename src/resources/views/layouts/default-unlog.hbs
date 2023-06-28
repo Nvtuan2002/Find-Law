@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="icon" type="image/x-icon" href="/img/logo.png" />
+    <script src="https://kit.fontawesome.com/50a3c67631.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="wrap">
+
+    {{> header-unlog}}
+
+    {{{body}}}
+
+    {{> footer}}
+
+    </div>
+
+    <script>
+        function clickShow() {
+            var x = document.getElementById("hiden-search-none");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    <script>
+        function contact(){
+            var x = document.getElementById("hotline-help");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+        //Scroll Top 
+        const btn = document.querySelector('.scroll-Top');
+            btn.addEventListener('click', () => {
+                window.scrollTo({
+                    left: 0,
+                    top: 0,
+                })
+            })
+            window.addEventListener('scroll', function () {
+                const scrollHeight = window.pageYOffset;
+                if (scrollHeight > 100) {
+                    btn.classList.add('show-link');
+                } else {
+                    btn.classList.remove('show-link');
+                }
+            });
+        //End Scroll Top
+    </script>
+</body>
+</html>

@@ -1,0 +1,1431 @@
+[{
+  "_id": {
+    "$oid": "63ab1588ebee926835686e6a"
+  },
+  "content": "Phạt tiền từ 1.000.000 đồng đến 3.000.000 đồng đối với một trong các trường hợp sau:\r\na) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các\r\nloại\r\nrừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích dưới 5.000 m2\r\n;\r\nb) Rừng sản xuất có diện tích dưới 3.000 m2\r\n;\r\nc) Rừng phòng hộ có diện tích dưới 2.000 m2\r\n;\r\nd) Rừng đặc dụng có diện tích dưới 1.000 m2.",
+  "chuong": "2",
+  "khoan": "1",
+  "dieu": "7",
+  "muc": "1",
+  "priceabove": "3.000.000đ",
+  "pricebelow": "1.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672156553901"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159309702"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab15f0ebee926835686e70"
+  },
+  "content": "Phạt tiền từ 3.000.000 đồng đến 7.000.000 đồng đối với một trong các trường hợp sau: \r\na) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các \r\nloại \r\nrừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích từ 5.000 m2 đến dưới 10.000 m2\r\n; \r\nb) Rừng sản xuất có diện tích từ 3.000 m2 đến dưới 5.000 m2\r\n; \r\nc) Rừng phòng hộ có diện tích từ 2.000 m2 đến dưới 4.000 m2\r\n; \r\nd) Rừng đặc dụng có diện tích từ 1.000 m2 đến dưới 3.000 m2.",
+  "chuong": "2",
+  "khoan": "2",
+  "dieu": "7",
+  "muc": "1",
+  "priceabove": "7.000.000đ",
+  "pricebelow": "3.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672156658341"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159320022"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab1622ebee926835686e72"
+  },
+  "content": " Phạt tiền từ 7.000.000 đồng đến 15.000.000 đồng đối với một trong các trường hợp sau: \r\na) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các \r\nloại \r\nrừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích từ 10.000 m2 đến dưới 20.000 m2\r\n; \r\nb) Rừng sản xuất có diện tích từ 5.000 m2 đến dưới 8.000 m2\r\n; \r\nc) Rừng phòng hộ có diện tích từ 4.000 m2 đến dưới 6.000 m2\r\n; \r\nd) Rừng đặc dụng có diện tích từ 3.000 m2 đến dưới 4.000 m2. ",
+  "chuong": "2",
+  "khoan": "3",
+  "dieu": "7",
+  "muc": "1",
+  "priceabove": "15.000.000đ",
+  "pricebelow": "7.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672156707932"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159328022"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab16a4ebee926835686e78"
+  },
+  "content": "Phạt tiền từ 15.000.000 đồng đến 25.000.000 đồng đối với một trong các trường hợp sau: \r\na) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các \r\nloại \r\nrừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích từ 20.000 m2 đến dưới 30.000 m2\r\n; \r\nb) Rừng sản xuất có diện tích từ 8.000 m2 đến dưới 10.000 m2\r\n; \r\nc) Rừng phòng hộ có diện tích từ 6.000 m2 đến dưới 8.000 m2\r\n; \r\nd) Rừng đặc dụng có diện tích từ 4.000 m2 đến dưới 5.000 m2.",
+  "chuong": "2",
+  "khoan": "4",
+  "dieu": "7",
+  "muc": "1",
+  "priceabove": "25.000.000đ",
+  "pricebelow": "15.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672156838238"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159334733"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab16cdebee926835686e7a"
+  },
+  "content": "Phạt tiền từ 25.000.000 đồng đến 32.000.000 đồng đối với một trong các trường hợp sau: \r\na) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các \r\nloại \r\nrừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích từ 30.000 m2 đến dưới 40.000 m2\r\n; \r\nb) Rừng sản xuất có diện tích từ 10.000 m2 đến dưới 15.000 m2\r\n; \r\nc) Rừng phòng hộ có diện tích từ 8.000 m2 đến dưới 12.000 m2\r\n; \r\nd) Rừng đặc dụng có diện tích từ 5.000 m2 đến dưới 7.000 m2.",
+  "chuong": "2",
+  "khoan": "5",
+  "dieu": "7",
+  "muc": "1",
+  "priceabove": "32.000.000đ",
+  "pricebelow": "25.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672156879036"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159341957"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab16fdebee926835686e7c"
+  },
+  "content": "Phạt tiền từ 32.000.000 đồng đến 40.000.000 đồng đối với một trong các trường hợp sau: \r\na) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các \r\nloại \r\nrừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích từ 40.000 m2 đến dưới 50.000 m2\r\n; \r\nb) Rừng sản xuất có diện tích từ 15.000 m2 đến dưới 20.000 m2\r\n; \r\nc) Rừng phòng hộ có diện tích từ 12.000 m2 đến dưới 15.000 m2\r\n; \r\nd) Rừng đặc dụng có diện tích từ 7.000 m2 đến dưới 10.000 m2.",
+  "chuong": "2",
+  "khoan": "6",
+  "dieu": "7",
+  "muc": "1",
+  "priceabove": "40.000.000đ",
+  "pricebelow": "32.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672156927187"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159348989"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab1739ebee926835686e7e"
+  },
+  "content": "Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng đối với một trong các trường hợp sau: \r\na) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các \r\nloại \r\nrừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích 50.000 m2\r\ntrở lên; \r\nb) Rừng sản xuất có diện tích 20.000 m2\r\ntrở lên; \r\nc) Rừng phòng hộ có diện tích 15.000 m2\r\ntrở lên; \r\nd) Rừng đặc dụng có diện tích 10.000 m2\r\ntrở lên.",
+  "chuong": "2",
+  "khoan": "7",
+  "dieu": "7",
+  "muc": "1",
+  "priceabove": "50.000.000đ",
+  "pricebelow": "40.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672156986679"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159356565"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab1843ebee926835686e81"
+  },
+  "content": "Biện pháp khắc phục hậu quả: \r\nBuộc khôi phục lại tình trạng ban đầu đối với hành vi quy định tại khoản 1, khoản 2, khoản 3, \r\nkhoản 4, khoản 5, khoản 6 và khoản 7 Điều này.",
+  "chuong": "2",
+  "khoan": "8",
+  "dieu": "7",
+  "muc": "1",
+  "priceabove": "",
+  "pricebelow": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672157253342"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672157253342"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab1870ebee926835686e83"
+  },
+  "content": "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng đối với hành vi tổ chức du lịch, tham \r\nquan trong rừng mà không được phép của chủ rừng.",
+  "chuong": "2",
+  "khoan": "1",
+  "dieu": "8",
+  "muc": "1",
+  "priceabove": "5.000.000đ",
+  "pricebelow": "1.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672157298033"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159377689"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab1899ebee926835686e85"
+  },
+  "content": "Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với một trong các trường hợp sau:\r\na) Tổ chức các dịch vụ, kinh doanh trong rừng mà không được phép của chủ rừng;\r\nb) Tổ chức nghỉ dưỡng, giải trí trong phân khu bảo vệ nghiêm ngặt của rừng đặc dụng.",
+  "chuong": "2",
+  "khoan": "2",
+  "dieu": "8",
+  "muc": "1",
+  "priceabove": "10.000.000đ",
+  "pricebelow": "5.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672157339042"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159389059"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab18d1ebee926835686e87"
+  },
+  "content": "Phạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với hành vi đầu tư hoạt động du lịch \r\nsinh thái, nghỉ dưỡng, giải trí trong rừng đặc dụng, rừng phòng hộ thuộc một trong các trường hợp sau:\r\na) Không lập dự án kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí;\r\nb) Lập dự án kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí nhưng không phù hợp với đề án \r\ndu lịch, nghỉ dưỡng, giải trí được cơ quan có thẩm quyền phê duyệt.",
+  "chuong": "2",
+  "khoan": "3",
+  "dieu": "8",
+  "muc": "1",
+  "priceabove": "25.000.000đ",
+  "pricebelow": "10.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672157394863"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159396597"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab18e9ebee926835686e89"
+  },
+  "content": "Biện pháp khắc phục hậu quả:\r\na) Buộc khôi phục lại tình trạng ban đầu đối với hành vi quy định tại khoản 2 Điều này;\r\nb) Buộc lập dự án kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí theo quy định của pháp luật \r\nhoặc buộc lập dự án kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí phù hợp với đề án du lịch sinh \r\nthái, nghỉ dưỡng, giải trí được cơ quan có thẩm quyền phê duyệt đối với hành vi quy định tại khoản 3 \r\nĐiều này.",
+  "chuong": "2",
+  "khoan": "4",
+  "dieu": "8",
+  "muc": "1",
+  "priceabove": "",
+  "pricebelow": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672157418896"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672157418896"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab18fcebee926835686e8b"
+  },
+  "content": "Người có hành vi vi phạm quy định tại Điều này mà gây thiệt hại đến rừng hoặc lâm sản, thì \r\nbị xử phạt theo Điều 13 hoặc Điều 20 của Nghị định này.",
+  "chuong": "2",
+  "khoan": "5",
+  "dieu": "8",
+  "muc": "1",
+  "priceabove": "",
+  "pricebelow": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672157438249"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672157438249"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab1955ebee926835686e8d"
+  },
+  "content": "Hành vi sử dụng dịch vụ môi trường rừng không ký hợp đồng chi trả tiền sử dụng dịch vụ\r\nmôi trường rừng sau 03 tháng, kể từ khi sử dụng dịch vụ môi trường rừng, bị xử phạt như sau:\r\na) Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng nếu không ký hợp đồng đối với chủ rừng \r\ncung ứng dịch vụ môi trường rừng trong trường hợp chi trả trực tiếp;\r\nb) Phạt tiền từ 10.000.000 đồng đến 20.000.000 đồng khi không ký hợp đồng với Quỹ bảo vệ\r\nvà phát triển rừng tỉnh trong trường hợp chi trả gián tiếp;\r\nc) Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng khi không ký hợp đồng với Quỹ bảo vệ\r\nvà phát triển rừng Việt Nam trong trường hợp chi trả gián tiếp.",
+  "chuong": "2",
+  "khoan": "1",
+  "dieu": "9",
+  "muc": "1",
+  "priceabove": "50.000.000đ",
+  "pricebelow": "3.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672157527031"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159410273"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab199aebee926835686e8f"
+  },
+  "content": "Hành vi sử dụng dịch vụ môi trường rừng không kê khai tiền phải chi trả dịch vụ môi trường \r\nrừng trong trường hợp chi trả gián tiếp, bị xử phạt như sau:\r\na) Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng nếu số tiền phải chi trả dưới 50.000.000 \r\nđồng;\r\nb) Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng nếu số tiền phải chi trả từ 50.000.000 đồng \r\nđến dưới 200.000.000 đồng;\r\nc) Phạt tiền từ 3.000.000 đến 5.000.000 đồng nếu số tiền phải chi trả từ 200.000.000 đồng đến \r\ndưới 300.000.000 đồng;\r\nd) Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng nếu số tiền phải chi trả từ 300.000.000 \r\nđồng đến dưới 500.000.000 đồng;\r\nđ) Phạt tiền từ 7.000.000 đồng đến 10.000.000 đồng nếu số tiền phải chi trả 500.000.000 đồng \r\ntrở lên.",
+  "chuong": "2",
+  "khoan": "2",
+  "dieu": "9",
+  "muc": "1",
+  "priceabove": "10.000.000đ",
+  "pricebelow": "1.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672157595511"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159417697"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab1a0febee926835686e91"
+  },
+  "content": "Hành vi sử dụng dịch vụ môi trường rừng không chi trả hoặc chi trả không đầy đủ tiền sử\r\ndụng dịch vụ, bị xử phạt như sau:\r\na) Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng nếu không chi trả hoặc chi trả không đầy \r\nđủ tiền sử dụng dịch vụ quá 03 tháng theo thời hạn ký kết trong hợp đồng với số tiền dưới 20.000.000 \r\nđồng;\r\nb) Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng nếu không chi trả hoặc chi trả không đầy \r\nđủ tiền sử dụng dịch vụ quá 03 tháng theo thời hạn ký kết trong hợp đồng với số tiền từ 20.000.000 \r\nđồng đến dưới 30.000.000 đồng;\r\nc) Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng nếu không chi trả hoặc chi trả không đầy \r\nđủ tiền sử dụng dịch vụ quá 03 tháng theo thời hạn ký kết trong hợp đồng với số tiền từ 30.000.000 \r\nđồng đến dưới 50.000.000 đồng;\r\nd) Phạt tiền từ 5.000.000 đồng đến 15.000.000 đồng nếu không chi trả hoặc chi trả không đầy \r\nđủ tiền sử dụng dịch vụ quá 03 tháng theo thời hạn ký kết trong hợp đồng với số tiền từ 50.000.000 \r\nđồng đến dưới 100.000.000 đồng;\r\nđ) Phạt tiền từ 15.000.000 đồng đến 25.000.000 đồng nếu không chi trả hoặc chi trả không đầy \r\nđủ tiền sử dụng dịch vụ quá 03 tháng theo thời hạn ký kết trong hợp đồng với số tiền từ 100.000.000 \r\nđồng đến dưới 200.000.000 đồng;\r\ne) Phạt tiền từ 25.000.000 đồng đến 40.000.000 đồng nếu không chi trả hoặc chi trả không đầy \r\nđủ tiền sử dụng dịch vụ quá 03 tháng theo thời hạn ký kết trong hợp đồng với số tiền từ 200.000.000 \r\nđồng đến dưới 500.000.000 đồng;\r\ng) Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng nếu không chi trả hoặc chi trả không đầy \r\nđủ tiền sử dụng dịch vụ quá 03 tháng theo thời hạn ký kết trong hợp đồng với số tiền 500.000.000 đồng \r\ntrở lên.",
+  "chuong": "2",
+  "khoan": "3",
+  "dieu": "9",
+  "muc": "1",
+  "priceabove": "50.000.000đ",
+  "pricebelow": "1.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672157713082"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159426828"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab1a36ebee926835686e93"
+  },
+  "content": "Hành vi không thực hiện chi trả hoặc chi trả không đầy đủ, đúng hạn tiền thu từ dịch vụ môi \r\ntrường rừng cho người nhận khoán bảo vệ rừng theo hợp đồng ký kết giữa chủ rừng và người nhận \r\nkhoán bảo vệ rừng, bị xử phạt như sau:\r\na) Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng nếu số tiền phải chi trả dưới 5.000.000 \r\nđồng;\r\nb) Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng nếu số tiền phải chi trả từ 5.000.000 đồng \r\nđến dưới 20.000.000 đồng;\r\nc) Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng nếu số tiền phải chi trả từ 20.000.000 đồng \r\nđến dưới 50.000.000 đồng;\r\nd) Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng nếu số tiền phải chi trả 50.000.000 đồng \r\ntrở lên.",
+  "chuong": "2",
+  "khoan": "4",
+  "dieu": "9",
+  "muc": "1",
+  "priceabove": "10.000.000đ",
+  "pricebelow": "1.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672157751594"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159434420"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab1a50ebee926835686e95"
+  },
+  "content": " Biện pháp khắc phục hậu quả:\r\na) Buộc chi trả đầy đủ tiền sử dụng dịch vụ môi trường rừng và tiền lãi phát sinh từ việc chậm \r\nchi trả (nếu có) tương ứng với số tiền và thời gian chậm chi trả trong thời hạn 01 tháng, kể từ ngày \r\nnhận được quyết định xử phạt, đối với hành vi quy định tại khoản 3 Điều này.\r\nTiền lãi được tính trên cơ sở số tiền chậm chi trả, thời gian chậm chi trả theo lãi suất cơ bản \r\ndo Ngân hàng Nhà nước Việt Nam công bố tại thời điểm gần nhất với thời điểm ra quyết định xử phạt \r\nvi phạm hành chính.\r\nb) Buộc chi trả đầy đủ tiền dịch vụ môi trường rừng cho người nhận khoán bảo vệ rừng theo \r\nhợp đồng đã ký kết trong thời hạn 01 tháng, kể từ ngày nhận được quyết định xử phạt, đối với hành vi \r\nquy định tại khoản 4 Điều này.",
+  "chuong": "2",
+  "khoan": "5",
+  "dieu": "9",
+  "muc": "1",
+  "priceabove": "",
+  "pricebelow": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672157778346"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672157778346"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab1f3b4dafa56432534a39"
+  },
+  "content": "Phạt tiền từ 1.000.000 đồng đến 3.000.000 đồng đối với hành vi không xây dựng, trình cấp \r\ncó thẩm quyền phê duyệt phương án quản lý rừng bền vững hoặc không thực hiện đúng phương án \r\nquản lý rừng bền vững đã được cấp có thẩm quyền phê duyệt.",
+  "chuong": "2",
+  "khoan": "1",
+  "dieu": "10",
+  "muc": "1",
+  "priceabove": "3.000.000đ",
+  "pricebelow": "1.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672159037287"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159451821"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab1f634dafa56432534a3b"
+  },
+  "content": "Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với hành vi đánh giá, cấp chứng chỉ\r\nquản lý rừng bền vững không đúng quy định của pháp luật về tiêu chí quản lý rừng bền vững.",
+  "chuong": "2",
+  "khoan": "2",
+  "dieu": "10",
+  "muc": "1",
+  "priceabove": "5.000.000đ",
+  "pricebelow": "3.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672159076830"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159461494"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab1f874dafa56432534a3d"
+  },
+  "content": "Biện pháp khắc phục hậu quả:\r\na) Buộc xây dựng phương án quản lý rừng bền vững trình cấp có thẩm quyền phê duyệt đối \r\nvới hành vi quy định tại khoản 1 Điều này;\r\nb) Buộc thu hồi chứng chỉ quản lý rừng bền vững đã cấp đối với hành vi quy định tại khoản 2 \r\nĐiều này.",
+  "chuong": "2",
+  "khoan": "3",
+  "dieu": "10",
+  "muc": "1",
+  "priceabove": "",
+  "pricebelow": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672159113087"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159113087"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab1fc04dafa56432534a3f"
+  },
+  "content": "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng đối với hành vi khai thác, tận dụng, tận thu \r\ngỗ rừng trồng do nhà nước đại diện chủ sở hữu có nguồn gốc hợp pháp nhưng không chấp hành đầy \r\nđủ về hồ sơ lâm sản hoặc trình tự, thủ tục khai thác lâm sản theo quy định của pháp luật.",
+  "chuong": "2",
+  "khoan": "1",
+  "dieu": "11",
+  "muc": "1",
+  "priceabove": "1.000.000đ",
+  "pricebelow": "500.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672159169666"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159475383"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab1ffd4dafa56432534a41"
+  },
+  "content": "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng đối với hành vi khai thác, tận dụng, tận thu \r\nlâm sản từ rừng tự nhiên có nguồn gốc hợp pháp nhưng không chấp hành đầy đủ các quy định về hồ\r\nsơ lâm sản hoặc trình tự, thủ tục về khai thác lâm sản theo quy định của pháp luật.",
+  "chuong": "2",
+  "khoan": "2",
+  "dieu": "11",
+  "muc": "1",
+  "priceabove": "5.000.000đ",
+  "pricebelow": "1.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672159230996"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159485553"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab20244dafa56432534a43"
+  },
+  "content": "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng đối với một trong các trường hợp sau:\r\na) Rừng sản xuất có diện tích dưới 800 m2\r\n;\r\nb) Rừng phòng hộ có diện tích dưới 600 m2;\r\nc) Rừng đặc dụng có diện tích dưới 400 m2.",
+  "chuong": "2",
+  "khoan": "1",
+  "dieu": "12",
+  "muc": "1",
+  "priceabove": "5.000.000đ",
+  "pricebelow": "1.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672159270465"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159297430"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab21334dafa56432534a88"
+  },
+  "content": "Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với một trong các trường hợp sau:\r\na) Rừng sản xuất có diện tích từ 800 m2 đến dưới 1.400 m2\r\n;\r\nb) Rừng phòng hộ có diện tích từ 600 m2 đến dưới 1.000 m2;\r\nc) Rừng đặc dụng có diện tích từ 400 m2 đến dưới 800 m2.",
+  "chuong": "2",
+  "khoan": "2",
+  "dieu": "12",
+  "muc": "1",
+  "priceabove": "10.000.000đ",
+  "pricebelow": "5.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672159540815"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159540815"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab21564dafa56432534a8a"
+  },
+  "content": "Phạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với một trong các trường hợp sau:\r\na) Rừng sản xuất có diện tích từ 1.400 m2 đến dưới 3.000 m2\r\n;\r\nb) Rừng phòng hộ có diện tích từ 1.000 m2 đến dưới 2.000 m2;\r\nc) Rừng đặc dụng có diện tích từ 800 m2 đến dưới 1.500 m2.",
+  "chuong": "2",
+  "khoan": "3",
+  "dieu": "12",
+  "muc": "1",
+  "priceabove": "25.000.000đ",
+  "pricebelow": "10.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672159575620"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159575620"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab21764dafa56432534a8c"
+  },
+  "content": "Phạt tiền từ 25.000.000 đồng đến 40.000.000 đồng đối với một trong các trường hợp sau:\r\na) Rừng sản xuất có diện tích từ 3.000 m2 đến dưới 5.000 m2\r\n;\r\nb) Rừng phòng hộ có diện tích từ 2.000 m2 đến dưới 3.000 m2;\r\nc) Rừng đặc dụng có diện tích từ 1.500 m2 đến dưới 2.500 m2.",
+  "chuong": "2",
+  "khoan": "4",
+  "dieu": "12",
+  "muc": "1",
+  "priceabove": "40.000.000đ",
+  "pricebelow": "25.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672159607766"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159607766"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab21a04dafa56432534a8e"
+  },
+  "content": "Phạt tiền từ 40.000.000 đồng đến 60.000.000 đồng đối với một trong các trường hợp sau:\r\na) Rừng sản xuất có diện tích từ 5.000 m2 đến dưới 7.000 m2\r\n;\r\nb) Rừng phòng hộ có diện tích từ 3.000 m2 đến dưới 5.000 m2;\r\nc) Rừng đặc dụng có diện tích từ 2.500 m2 đến dưới 3.500 m2.",
+  "chuong": "2",
+  "khoan": "5",
+  "dieu": "12",
+  "muc": "1",
+  "priceabove": "60.000.000đ",
+  "pricebelow": "40.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672159649948"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159649948"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab21cf4dafa56432534a90"
+  },
+  "content": "Phạt tiền từ 60.000.000 đồng đến 80.000.000 đồng đối với một trong các trường hợp sau:\r\na) Rừng sản xuất có diện tích từ 7.000 m2 đến dưới 10.000 m2\r\n;\r\nb) Rừng phòng hộ có diện tích từ 5.000 m2 đến dưới 7.500 m2;\r\nc) Rừng đặc dụng có diện tích từ 3.500 m2 đến dưới 5.000 m2.",
+  "chuong": "2",
+  "khoan": "6",
+  "dieu": "12",
+  "muc": "1",
+  "priceabove": "80.000.000đ",
+  "pricebelow": "60.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672159697016"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159697016"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab21f64dafa56432534a92"
+  },
+  "content": "Phạt tiền từ 80.000.000 đồng đến 100.000.000 đồng đối với một trong các trường hợp sau:\r\na) Rừng sản xuất có diện tích 10.000 m2\r\ntrở lên;\r\nb) Rừng phòng hộ có diện tích 7.500 m2\r\ntrở lên;\r\nc) Rừng đặc dụng có diện tích 5.000 m2\r\ntrở lên.",
+  "chuong": "2",
+  "khoan": "7",
+  "dieu": "12",
+  "muc": "1",
+  "priceabove": "100.000.000đ",
+  "pricebelow": "80.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672159736090"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159736090"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab22514dafa56432534a94"
+  },
+  "content": "Khai thác trái pháp luật trong rừng sản xuất:\r\na) Đối với gỗ loài thông thường:\r\nPhạt tiền từ 500.000 đồng đến 1.000.000 đồng đối với hành vi khai thác trái pháp luật dưới 0,4 \r\nm3 gỗ rừng trồng hoặc dưới 0,2 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 1.000.000 đồng đến 5.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,4 \r\nm3 đến dưới 01 m3 gỗ rừng trồng hoặc từ 0,2 m3 đến dưới 0,5 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với hành vi khai thác trái pháp luật từ 01 \r\nm3 đến dưới 02 m3 gỗ rừng trồng hoặc từ 0,5 m3 đến dưới 01 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n02 m3 đến dưới 05 m3 gỗ rừng trồng hoặc từ 01 m3 đến dưới 2,5 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 25.000.000 đồng đến 35.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n05 m3 đến dưới 07 m3 gỗ rừng trồng hoặc từ 2,5 m3 đến dưới 3,5 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 35.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n07 m3 đến dưới 10 m3 gỗ rừng trồng hoặc từ 3,5 m3 đến dưới 05 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n10 m3 đến dưới 15 m3 gỗ rừng trồng hoặc từ 05 m3 đến dưới 07 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 70.000.000 đồng đến 100.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n15 m3 đến dưới 20 m3 gỗ rừng trồng hoặc từ 07 m3 đến dưới 10 m3 gỗ rừng tự nhiên.\r\nb) Đối với gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIA:\r\nPhạt tiền từ 1.000.000 đồng đến 3.000.000 đồng đối với hành vi khai thác trái pháp luật dưới \r\n0,3 m3 gỗ rừng trồng hoặc dưới 0,2 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 3.000.000 đồng đến 7.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,3 \r\nm3 đến dưới 0,5 m3 gỗ rừng trồng hoặc từ 0,2 m3 đến dưới 0,4 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 7.000.000 đồng đến 10.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,5 \r\nm3 đến dưới 01 m3 gỗ rừng trồng hoặc từ 0,4 m3 đến dưới 0,6 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n01 m3 đến dưới 1,5 m3 gỗ rừng trồng hoặc từ 0,6 m3 đến dưới 01 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 25.000.000 đồng đến 35.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n1,5 m3 đến dưới 02 m3 gỗ rừng trồng hoặc từ 01 m3 đến dưới 1,5 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 35.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n02 m3 đến dưới 03 m3 gỗ rừng trồng hoặc từ 1,5 m3 đến dưới 02 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 50.000.000 đồng đến 100.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n03 m3 đến dưới 07 m3 gỗ rừng trồng hoặc từ 02 m3 đến dưới 03 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 100.000.000 đồng đến 150.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n07 m3 đến dưới 10 m3 gỗ rừng trồng hoặc từ 03 m3 đến dưới 05 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 150.000.000 đồng đến 200.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n10 m3 đến dưới 15 m3 gỗ rừng trồng hoặc từ 05 m3 đến dưới 07 m3 gỗ rừng tự nhiên.\r\nc) Đối với gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA:\r\nPhạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với hành vi khai thác trái pháp luật dưới \r\n0,3 m3;\r\nPhạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n0,3 m3 đến dưới 0,5 m3;\r\nPhạt tiền từ 50.000.000 đồng đến 75.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n0,5 m3 đến dưới 0,7 m3;\r\nPhạt tiền từ 75.000.000 đồng đến 100.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n0,7 m3 đến dưới 01 m3.",
+  "chuong": "2",
+  "khoan": "1",
+  "dieu": "13",
+  "muc": "1",
+  "priceabove": "100.000.000đ",
+  "pricebelow": "500.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672159827442"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159827442"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab22c74dafa56432534a96"
+  },
+  "content": "Đối với gỗ loài thông thường:\r\nPhạt tiền từ 1.000.000 đồng đến 4.000.000 đồng đối với hành vi khai thác trái pháp luật dưới \r\n0,5 m3 gỗ rừng trồng hoặc dưới 0,3 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 4.000.000 đồng đến 8.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,5 \r\nm3 đến dưới 01 m3 gỗ rừng trồng hoặc từ 0,3 m3 đến dưới 0,5 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 8.000.000 đồng đến 15.000.000 đồng đối với hành vi khai thác trái pháp luật từ 01 \r\nm3 đến dưới 02 m3 gỗ rừng trồng hoặc từ 0,5 m3 đến dưới 01 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 15.000.000 đồng đến 25.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n02 m3 đến dưới 04 m3 gỗ rừng trồng hoặc từ 01 m3 đến dưới 02 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n04 m3 đến dưới 06 m3 gỗ rừng trồng hoặc từ 02 m3 đến dưới 03 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n06 m3 đến dưới 10 m3 gỗ rừng trồng hoặc từ 03 m3 đến dưới 05 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 70.000.000 đồng đến 100.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n10 m3 đến dưới 15 m3 gỗ rừng trồng hoặc từ 05 m3 đến dưới 07 m3 gỗ rừng tự nhiên.\r\nb) Đối với gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIA:\r\nPhạt tiền từ 1.000.000 đồng đến 5.000.000 đồng đối với hành vi khai thác trái pháp luật dưới \r\n0,3 m3 gỗ rừng trồng hoặc dưới 0,2 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 5.000.000 đồng đến 7.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,3 \r\nm3 đến dưới 0,6 m3 gỗ rừng trồng hoặc từ 0,2 m3 đến dưới 0,3 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 7.000.000 đồng đến 15.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,6 \r\nm3 đến dưới 01 m3 gỗ rừng trồng hoặc từ 0,3 m3 đến dưới 0,5 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 15.000.000 đồng đến 25.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n01 m3 đến dưới 1,5 m3 gỗ rừng trồng hoặc từ 0,5 m3 đến dưới 0,7 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n1,5 m3 đến dưới 02 m3 gỗ rừng trồng hoặc từ 0,7 m3 đến dưới 01 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n02 m3 đến dưới 03 m3 gỗ rừng trồng hoặc từ 01 m3 đến dưới 1,5 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 70.000.000 đồng đến 100.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n03 m3 đến dưới 05 m3 gỗ rừng trồng hoặc từ 1,5 m3 đến dưới 2,5 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 100.000.000 đồng đến 150.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n05 m3 đến dưới 07 m3 gỗ rừng trồng hoặc từ 2,5 m3 đến dưới 04 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 150.000.000 đồng đến 200.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n07 m3 đến dưới 10 m3 gỗ rừng trồng hoặc từ 04 m3 đến dưới 05 m3 gỗ rừng tự nhiên.\r\nc) Đối với gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA:\r\nPhạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật dưới \r\n0,1 m3;\r\nPhạt tiền từ 50.000.000 đồng đến 85.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n0,1 m3 đến dưới 0,3 m3;\r\nPhạt tiền từ 85.000.000 đồng đến 120.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n0,3 m3 đến dưới 0,5 m3.",
+  "chuong": "2",
+  "khoan": "2",
+  "dieu": "13",
+  "muc": "1",
+  "priceabove": "120.000.000đ",
+  "pricebelow": "1.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672159945245"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672159945245"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab23044dafa56432534a99"
+  },
+  "content": "Đối với gỗ loài thông thường:\r\nPhạt tiền từ 1.000.000 đồng đến 5.000.000 đồng đối với hành vi khai thác trái pháp luật dưới \r\n0,5 m3 gỗ rừng trồng hoặc dưới 0,3 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,5 \r\nm3 đến dưới 01 m3 gỗ rừng trồng hoặc từ 0,3 m3 đến dưới 0,5 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n01 m3 đến dưới 02 m3 gỗ rừng trồng hoặc từ 0,5 m3 đến dưới 01 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n02 m3 đến dưới 05 m3 gỗ rừng trồng hoặc từ 01 m3 đến dưới 02 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 50.000.000 đồng đến 100.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n05 m3 đến dưới 10 m3 gỗ rừng trồng hoặc từ 02 m3 đến dưới 03 m3 gỗ rừng tự nhiên.\r\nb) Đối với gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIA:\r\nPhạt tiền từ 2.000.000 đồng đến 6.000.000 đồng đối với hành vi khai thác trái pháp luật dưới \r\n0,3 m3 gỗ rừng trồng;\r\nPhạt tiền từ 6.000.000 đồng đến 10.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,3 \r\nm3 đến dưới 0,5 m3 gỗ rừng trồng hoặc dưới 0,2 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n0,5 m3 đến dưới 01 m3 gỗ rừng trồng hoặc từ 0,2 m3 đến dưới 0,4 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n01 m3 đến dưới 02 m3 gỗ rừng trồng hoặc từ 0,4 m3 đến dưới 0,6 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n02 m3 đến dưới 03 m3 gỗ rừng trồng hoặc từ 0,6 m3 đến dưới 0,8 m3 gỗ rừng tự nhiên;\r\nPhạt tiền từ 70.000.000 đồng đến 100.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n03 m3 đến dưới 05 m3 gỗ rừng trồng hoặc từ 0,8 m3 đến dưới 01 m3 gỗ rừng tự nhiên.\r\nc) Đối với gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA:\r\nPhạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật dưới \r\n0,1 m3;\r\nPhạt tiền từ 50.000.000 đồng đến 85.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n0,1 m3 đến dưới 0,3 m3;\r\nPhạt tiền từ 85.000.000 đồng đến 120.000.000 đồng đối với hành vi khai thác trái pháp luật từ\r\n0,3 m3 đến dưới 0,5 m3.",
+  "chuong": "2",
+  "khoan": "3",
+  "dieu": "13",
+  "muc": "1",
+  "priceabove": "120.000.000đ",
+  "pricebelow": "1.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160005731"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160005731"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab24264dafa56432534ab0"
+  },
+  "content": "Khai thác trái pháp luật thực vật rừng ngoài gỗ:\r\na) Đối với thực vật rừng ngoài gỗ loài thông thường; than hầm, than hoa:\r\nPhạt tiền từ 500.000 đồng đến 1.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá dưới \r\n1.000.000 đồng;\r\nPhạt tiền từ 1.000.000 đồng đến 3.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá từ\r\n1.000.000 đồng đến dưới 2.000.000 đồng;\r\nPhạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá từ\r\n2.000.000 đồng đến dưới 3.000.000 đồng;\r\nPhạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 3.000.000 đồng đến dưới 6.000.000 đồng;\r\nPhạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 6.000.000 đồng đến dưới 15.000.000 đồng;\r\nPhạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 15.000.000 đồng đến dưới 30.000.000 đồng;\r\nPhạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 30.000.000 đồng đến dưới 50.000.000 đồng;\r\nPhạt tiền từ 70.000.000 đồng đến 100.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 50.000.000 đồng đến dưới 70.000.000 đồng;\r\nPhạt tiền từ 100.000.000 đồng đến 125.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị\r\ngiá từ 70.000.000 đồng đến dưới 85.000.000 đồng;\r\nPhạt tiền từ 125.000.000 đồng đến 150.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị\r\ngiá từ 85.000.000 đồng đến dưới 100.000.000 đồng.\r\nb) Đối với thực vật rừng ngoài gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, \r\nhiếm Nhóm IIA:\r\nPhạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ndưới 1.000.000 đồng;\r\nPhạt tiền từ 2.000.000 đồng đến 5.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá từ\r\n1.000.000 đồng đến dưới 2.000.000 đồng;\r\nPhạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 2.000.000 đồng đến dưới 5.000.000 đồng;\r\nPhạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 5.000.000 đồng đến dưới 10.000.000 đồng;\r\nPhạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 10.000.000 đồng đến dưới 20.000.000 đồng;\r\nPhạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 20.000.000 đồng đến dưới 30.000.000 đồng;\r\nPhạt tiền từ 70.000.000 đồng đến 100.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 30.000.000 đọng đến dưới 50.000.000 đồng.\r\nc) Đối với thực vật rừng ngoài gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, \r\nhiếm Nhóm IA:\r\nPhạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ndưới 1.000.000 đồng;\r\nPhạt tiền từ 2.000.000 đồng đến 5.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá từ\r\n1.000.000 đồng đến dưới 2.000.000 đồng;\r\nPhạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 2.000.000 đồng đến dưới 5.000.000 đồng;\r\nPhạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 5.000.000 đồng đến dưới 10.000.000 đồng;\r\nPhạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 10.000.000 đồng đến dưới 15.000.000 đồng;\r\nPhạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 15.000.000 đồng đến dưới 20.000.000 đồng;\r\nPhạt tiền từ 70.000.000 đồng đến 100.000.000 đồng đối với hành vi gây thiệt hại lâm sản trị giá \r\ntừ 20.000.000 đồng đến dưới 30.000.000 đồng.",
+  "chuong": "2",
+  "khoan": "4",
+  "dieu": "13",
+  "muc": "1",
+  "priceabove": "100.000.000đ",
+  "pricebelow": "500.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160295526"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160295526"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab24544dafa56432534ab2"
+  },
+  "content": "Trường hợp khai thác trái pháp luật đối với cây thân gỗ có đường kính tại vị trí 1,3 m dưới 8 \r\ncm, không xác định được khối lượng thì đo diện tích rừng bị chặt phá để xử phạt theo quy định tại Điều \r\n20 của Nghị định này; đối với hành vi khai thác trái pháp luật cây phân tán không tính được diện tích \r\nthì đếm số cây bị khai thác để xử phạt, cứ mỗi cây 100.000 đồng nhưng tối đa không quá 100.000.000 \r\nđồng.",
+  "chuong": "2",
+  "khoan": "5",
+  "dieu": "13",
+  "muc": "1",
+  "priceabove": "",
+  "pricebelow": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160341806"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160341806"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab24684dafa56432534ab4"
+  },
+  "content": "Trường hợp khai thác trái pháp luật gỗ rừng tự nhiên còn lại rải rác trên nương rẫy thuộc đất \r\nrừng do Nhà nước quản lý; tận thu trái pháp luật gỗ nằm, trục, vớt gỗ trái pháp luật dưới sông, suối, ao, \r\nhồ trong rừng thì xử phạt theo quy định tại khoản 1 Điều này.",
+  "chuong": "2",
+  "khoan": "6",
+  "dieu": "13",
+  "muc": "1",
+  "priceabove": "",
+  "pricebelow": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160362144"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160362144"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab24844dafa56432534ab6"
+  },
+  "content": "Chủ rừng được nhà nước giao rừng, cho thuê rừng để quản lý, bảo vệ và sử dụng vào mục \r\nđích kinh doanh theo quy định của pháp luật, nếu không thực hiện trách nhiệm, nghĩa vụ quản lý, bảo \r\nvệ, phát triển, sử dụng rừng theo Quy chế quản lý rừng, không tổ chức kiểm tra phát hiện kịp thời vi \r\nphạm để khai thác rừng trái pháp luật thì xử phạt như quy định tại khoản 1 hoặc điểm a khoản 4 Điều \r\nnày.",
+  "chuong": "2",
+  "khoan": "7",
+  "dieu": "13",
+  "muc": "1",
+  "priceabove": "",
+  "pricebelow": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160390276"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160390276"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab24af4dafa56432534ab8"
+  },
+  "content": "Hình thức xử phạt bổ sung:\r\na) Tịch thu tang vật đối với hành vi quy định tại khoản 1, khoản 2, khoản 3, khoản 4, khoản 5 \r\nvà khoản 6 Điều này;\r\nb) Tịch thu công cụ, phương tiện thô sơ và các loại cưa xăng đối với các hành vi quy định tại \r\nkhoản 1, khoản 2, khoản 3, khoản 4, khoản 5 và khoản 6 Điều này;\r\nc) Tịch thu phương tiện cơ giới đối với hành vi quy định tại Điều này gây thiệt hại như sau:\r\nKhai thác rừng trái pháp luật đối với gỗ quy định tại điểm a khoản 1 từ 05 m3 gỗ rừng trồng trở\r\nlên hoặc 2,5 m3 gỗ rừng tự nhiên trở lên; tại điểm a khoản 2 từ 04 m3 gỗ rừng trồng trở lên hoặc từ 02 \r\nm3\r\ngỗ rừng tự nhiên trở lên; tại điểm a khoản 3 từ 02 m3 gỗ rừng trồng trở lên hoặc từ 01 m3 gỗ\r\nrừng tự nhiên trở lên;\r\nKhai thác rừng trái pháp luật đối với gỗ quy định tại điểm b khoản 1 từ 02 m3 gỗ rừng trồng trở\r\nlên hoặc 1,5 m3 gỗ rừng tự nhiên trở lên; tại điểm b của các khoản 2, khoản 3 từ 1,5 m3 gỗ rừng trồng \r\ntrở lên hoặc từ 0,7 m3 gỗ rừng tự nhiên trở lên;\r\nKhai thác rừng trái pháp luật đối với gỗ quy định tại điểm c khoản 1 từ 0,5 m3 gỗ trở lên; tại \r\nđiểm c của các khoản 2, khoản 3 từ 0,3 m3 gỗ trở lên;\r\nKhai thác rừng trái pháp luật đối với thực vật rừng ngoài gỗ quy định tại điểm a khoản 4 trị giá \r\n15.000.000 đồng trở lên; tại điểm b, điểm c khoản 4 trị giá 10.000.000 đồng trở lên;\r\nd) Đình chỉ hoạt động khai thác rừng có thời hạn từ 06 tháng đến 12 tháng do không thực hiện \r\nđúng phương án khai thác, gây hậu quả thuộc một trong các trường hợp quy định tại Điều này như sau: \r\nKhai thác rừng trái pháp luật đối với gỗ quy định tại điểm a khoản 1 từ 05 m3\r\ntrở lên hoặc tại điểm a \r\nkhoản 2 từ 03 m3\r\ntrở lên hoặc tại điểm a khoản 3 từ 02 m3\r\ntrở lên; khai thác rừng trái pháp luật đối với \r\ngỗ quy định tại điểm b khoản 1 từ 03 m3\r\ntrở lên hoặc tại điểm b khoản 2 từ 1,5 m3\r\ntrở lên hoặc tại điểm \r\nb khoản 3 từ 01 m3\r\ntrở lên; khai thác rừng trái pháp luật đối với gỗ quy định tại điểm c của các khoản \r\n1, khoản 2 và khoản 3 từ 0,3 m3\r\ntrở lên.",
+  "chuong": "2",
+  "khoan": "8",
+  "dieu": "13",
+  "muc": "1",
+  "priceabove": "",
+  "pricebelow": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160432894"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160432894"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab24c34dafa56432534aba"
+  },
+  "content": "Biện pháp khắc phục hậu quả:\r\nBuộc nộp lại số lợi bất hợp pháp có được do thực hiện vi phạm hành chính hoặc buộc nộp lại \r\nsố tiền bằng trị giá tang vật, phương tiện vi phạm hành chính đã bị tiêu thụ, tẩu tán, tiêu hủy trái quy \r\nđịnh của pháp luật đối với hành vi quy định tại khoản 1, khoản 2, khoản 3, khoản 4, khoản 5 và khoản \r\n6 Điều này.",
+  "chuong": "2",
+  "khoan": "9",
+  "dieu": "13",
+  "muc": "1",
+  "priceabove": "",
+  "pricebelow": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160453512"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160453512"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab25094dafa56432534abc"
+  },
+  "content": "Hành vi kinh doanh hạt giống cây lâm nghiệp chính từ nguồn giống đã có quyết định hủy bỏ\r\ncủa cơ quan có thẩm quyền hoặc từ nguồn giống chưa được cơ quan có thẩm quyền công nhận, bị xử\r\nphạt như sau:\r\na) Phạt tiền từ 10.000.000 đồng đến 15.000.000 đồng đối với hành vi vi phạm có khối lượng \r\ndưới 05 kg hạt giống;\r\nb) Phạt tiền từ 15.000.000 đồng đến 25.000.000 đồng đối với hành vi vi phạm có khối lượng 05 kg hạt giống trở lên.",
+  "chuong": "2",
+  "khoan": "1",
+  "dieu": "14",
+  "muc": "2",
+  "priceabove": "25.000.000đ",
+  "pricebelow": "10.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160522742"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160522742"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab253e4dafa56432534abe"
+  },
+  "content": "Hành vi kinh doanh cây giống lâm nghiệp chính được nhân từ giống, nguồn giống đã có \r\nquyết định hủy bỏ của cơ quan có thẩm quyền hoặc giống, nguồn giống chưa được cơ quan có thẩm \r\nquyền công nhận, bị xử phạt như sau:\r\na) Phạt tiền từ 5.000.000 đồng đến dưới 10.000.000 đồng đối với lô cây giống trị giá từ\r\n10.000.000 đồng đến dưới 20.000.000 đồng;\r\nb) Phạt tiền từ 10.000.000 đồng đến dưới 15.000.000 đồng đối với lô cây giống trị giá từ\r\n20.000.000 đồng đến dưới 30.000.000 đồng;\r\nc) Phạt tiền từ 15.000.000 đồng đến dưới 20.000.000 đồng đối với lô cây giống trị giá từ\r\n30.000.000 đồng đến dưới 40.000.000 đồng;\r\nd) Phạt tiền từ 20.000.000 đồng đến dưới 30.000.000 đồng đối với lô cây giống trị giá từ\r\n40.000.000 đồng đến dưới 60.000.000 đồng;\r\nđ) Phạt tiền từ 30.000.000 đồng đến dưới 40.000.000 đồng đối với lô cây giống trị giá từ\r\n60.000.000 đồng đến dưới 80.000.000 đồng;\r\ne) Phạt tiền từ 40.000.000 động đến 50.000.000 đồng đối với lô cây giống trị giá 80.000.000 \r\nđồng trở lên.",
+  "chuong": "2",
+  "khoan": "2",
+  "dieu": "14",
+  "muc": "2",
+  "priceabove": "50.000.000đ",
+  "pricebelow": "5.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160575934"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160575934"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab25534dafa56432534ac0"
+  },
+  "content": "Biện pháp khắc phục hậu quả:\r\nBuộc tiêu hủy lô hạt giống, lô cây giống lâm nghiệp đối với hành vi quy định tại khoản 1 và \r\nkhoản 2 Điều này.",
+  "chuong": "2",
+  "khoan": "3",
+  "dieu": "14",
+  "muc": "2",
+  "priceabove": "",
+  "pricebelow": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160597133"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160597133"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab25824dafa56432534ac2"
+  },
+  "content": "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng đối với hành vi chậm trồng rừng thay thế\r\ntrên 01 năm với diện tích từ dưới 01 ha.",
+  "chuong": "2",
+  "khoan": "1",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "5.000.000đ",
+  "pricebelow": "1.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160643650"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160643650"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab25a24dafa56432534ac4"
+  },
+  "content": "Phạt tiền từ 5.000.000 đồng đến 15.000.000 đồng đối với một trong các hành vi vi phạm sau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 01 ha đến dưới 03 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích dưới 01 ha.",
+  "chuong": "2",
+  "khoan": "2",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "15.000.000đ",
+  "pricebelow": "5.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160676498"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160676498"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab25c24dafa56432534ac6"
+  },
+  "content": "Phạt tiền từ 15.000.000 đồng đến 25.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 03 ha đến dưới 05 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 01 ha đến dưới 03 ha.",
+  "chuong": "2",
+  "khoan": "3",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "25.000.000đ",
+  "pricebelow": "15.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160708351"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160708351"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab25e34dafa56432534ac8"
+  },
+  "content": "Phạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 05 ha đến dưới 08 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 03 ha đến dưới 05 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích dưới 01 ha.",
+  "chuong": "2",
+  "khoan": "4",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "50.000.000đ",
+  "pricebelow": "25.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160740776"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160740776"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab26094dafa56432534aca"
+  },
+  "content": "Phạt tiền từ 50.000.000 đồng đến 75.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 08 ha đến dưới 15 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 05 ha đến dưới 10 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 01 ha đến dưới 05 ha.",
+  "chuong": "2",
+  "khoan": "5",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "75.000.000đ",
+  "pricebelow": "50.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160778588"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160778588"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab262a4dafa56432534acc"
+  },
+  "content": "Phạt tiền từ 75.000.000 đồng đến 100.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 15 ha đến dưới 25 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 10 ha đến dưới 15 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 05 ha đến dưới 07 ha.",
+  "chuong": "2",
+  "khoan": "6",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "100.000.000đ",
+  "pricebelow": "75.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160811936"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160811936"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab264c4dafa56432534ace"
+  },
+  "content": "Phạt tiền từ 100.000.000 đồng đến 125.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 25 ha đến dưới 30 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 15 ha đến dưới 20 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 07 ha đến dưới 10 ha.",
+  "chuong": "2",
+  "khoan": "7",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "125.000.000đ",
+  "pricebelow": "100.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160846426"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160846426"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab266f4dafa56432534ad0"
+  },
+  "content": "Phạt tiền từ 125.000.000 đồng đến 150.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 30 ha đến dưới 35 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 20 ha đến dưới 25 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 10 ha đến dưới 15 ha.",
+  "chuong": "2",
+  "khoan": "8",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "150.000.000đ",
+  "pricebelow": "125.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160881450"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160881450"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab26954dafa56432534ad2"
+  },
+  "content": "Phạt tiền từ 150.000.000 đồng đến 175.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 35 ha đến dưới 40 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 25 ha đến dưới 30 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 15 ha đến dưới 20 ha.",
+  "chuong": "2",
+  "khoan": "9",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "175.000.000đ",
+  "pricebelow": "150.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160919317"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160919317"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab26c54dafa56432534ad4"
+  },
+  "content": "Phạt tiền từ 175.000.000 đồng đến 200.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 40 ha đến dưới 45 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 30 ha đến dưới 35 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 20 ha đến dưới 25 ha.",
+  "chuong": "2",
+  "khoan": "10",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "200.000.000đ",
+  "pricebelow": "175.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672160967459"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672160967459"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab26ef4dafa56432534ad6"
+  },
+  "content": "Phạt tiền từ 200.000.000 đồng đến 225.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 45 ha đến dưới 50 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 35 ha đến dưới 40 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 25 ha đến dưới 30 ha.",
+  "chuong": "2",
+  "khoan": "11",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "225.000.000đ",
+  "pricebelow": "200.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672161009156"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672161009156"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab27174dafa56432534ad8"
+  },
+  "content": "Phạt tiền từ 225.000.000 đồng đến 250.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 50 ha đến dưới 55 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 40 ha đến dưới 45 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 30 ha đến dưới 35 ha.",
+  "chuong": "2",
+  "khoan": "12",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "250.000.000đ",
+  "pricebelow": "225.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672161048743"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672161048743"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab27434dafa56432534ada"
+  },
+  "content": "Phạt tiền từ 250.000.000 đồng đến 275.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 55 ha đến dưới 60 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 45 ha đến dưới 50 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 35 ha đến dưới 40 ha.",
+  "chuong": "2",
+  "khoan": "13",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "275.000.000đ",
+  "pricebelow": "250.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672161093423"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672161093423"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab277c4dafa56432534adc"
+  },
+  "content": "Phạt tiền từ 275.000.000 đồng đến 300.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 60 ha đến dưới 65 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 50 ha đến dưới 55 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 40 ha đến dưới 45 ha",
+  "chuong": "2",
+  "khoan": "14",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "300.000.000đ",
+  "pricebelow": "275.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672161149768"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672161149768"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab279e4dafa56432534ade"
+  },
+  "content": "Phạt tiền từ 300.000.000 đồng đến 325.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 65 ha đến dưới 70 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 55 ha đến dưới 60 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 45 ha đến dưới 50 ha",
+  "chuong": "2",
+  "khoan": "15",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "325.000.000đ",
+  "pricebelow": "300.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672161184249"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672161184249"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab27bf4dafa56432534ae0"
+  },
+  "content": "Phạt tiền từ 325.000.000 đồng đến 350.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 70 ha đến dưới 75 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 60 ha đến dưới 65 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 50 ha đến dưới 55 ha",
+  "chuong": "2",
+  "khoan": "16",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "350.000.000đ",
+  "pricebelow": "325.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672161216759"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672161216759"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab27e84dafa56432534ae2"
+  },
+  "content": "Phạt tiền từ 350.000.000 đồng đến 375.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 75 ha đến dưới 80 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 65 ha đến dưới 70 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 55 ha đến dưới 60 ha.",
+  "chuong": "2",
+  "khoan": "17",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "375.000.000đ",
+  "pricebelow": "350.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672161257747"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672161257747"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab28104dafa56432534ae4"
+  },
+  "content": "Phạt tiền từ 375.000.000 đồng đến 400.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 80 ha đến dưới 85 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 70 ha đến dưới 75 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 60 ha đến dưới 65 ha.",
+  "chuong": "2",
+  "khoan": "18",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "400.000.000đ",
+  "pricebelow": "375.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672161297767"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672161297767"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab28324dafa56432534ae6"
+  },
+  "content": "Phạt tiền từ 400.000.000 đồng đến 425.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 85 ha đến dưới 90 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 75 ha đến dưới 80 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 65 ha đến dưới 70 ha",
+  "chuong": "2",
+  "khoan": "19",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "425.000.000đ",
+  "pricebelow": "400.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672161331719"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672161331719"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab28534dafa56432534ae8"
+  },
+  "content": "Phạt tiền từ 425.000.000 đồng đến 450.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 90 ha đến dưới 95 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 80 ha đến dưới 85 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 70 ha đến dưới 75 ha.",
+  "chuong": "2",
+  "khoan": "20",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "450.000.000đ",
+  "pricebelow": "425.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672161365387"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672161365387"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab28714dafa56432534aea"
+  },
+  "content": "Phạt tiền từ 450.000.000 đồng đến 475.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích từ 95 ha đến dưới 100 ha;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích từ 85 ha đến dưới 90 ha;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích từ 75 ha đến dưới 80 ha.",
+  "chuong": "2",
+  "khoan": "21",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "475.000.000đ",
+  "pricebelow": "450.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672161394810"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672161394810"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab288e4dafa56432534aec"
+  },
+  "content": "Phạt tiền từ 475.000.000 đồng đến 500.000.000 đồng đối với một trong các hành vi vi phạm \r\nsau:\r\na) Chậm trồng rừng thay thế trên 01 năm với diện tích 100 ha trở lên;\r\nb) Chậm trồng rừng thay thế trên 02 năm với diện tích 90 ha trở lên;\r\nc) Chậm trồng rừng thay thế trên 03 năm với diện tích 80 ha trở lên.",
+  "chuong": "2",
+  "khoan": "22",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "500.000.000đ",
+  "pricebelow": "475.000.000đ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672161424031"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672161424031"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ab289f4dafa56432534aee"
+  },
+  "content": "Biện pháp khắc phục hậu quả:\r\nBuộc trồng lại rừng hoặc thanh toán chi phí trồng lại rừng đến khi thành rừng theo suất đầu tư \r\nđược áp dụng ở địa phương tại thời điểm vi phạm hành chính đối với hành vi quy định tại khoản 1, \r\nkhoản 2, khoản 3, khoản 4, khoản 5, khoản 6, khoản 7, khoản 8, khoản 9, khoản 10, khoản 11, khoản \r\n12, khoản 13, khoản 14, khoản 15, khoản 16, khoản 17, khoản 18, khoản 19, khoản 20, khoản 21 và \r\nkhoản 22 Điều này.",
+  "chuong": "2",
+  "khoan": "23",
+  "dieu": "15",
+  "muc": "2",
+  "priceabove": "",
+  "pricebelow": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672161440632"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672161440632"
+    }
+  },
+  "__v": 0
+}]

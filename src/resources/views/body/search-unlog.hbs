@@ -1,0 +1,241 @@
+<head><title>Tìm kiếm</title></head>
+<div class="container js-modalContainer ">
+    <!-- slide show  -->
+    <div class="container-slide">
+        <!-- <img src="" alt="" /> -->
+    </div>
+    <!-- start search law -->
+    <div class="road">
+        <i class="fa-solid fa-house"></i>
+        <a href="#">Trang chủ /</a>
+    </div>
+    <form action="/ketqua" name="form-behave" method="get">
+        <div class="search-content">
+            <div class="input-search-content">
+                <div class="btn-search">
+                    <input type="text" placeholder="Nhập nội dung tìm kiếm" name="noidung"/>
+                    <span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span style="font-size: 16px;" id="search-button" onclick="submit()">Tìm kiếm</span>
+                    </span>
+                </div>
+            </div>
+
+
+
+            <div class="btn">
+                <span><i class="fa-solid fa-filter"></i>Tìm kiếm nâng cao</span>
+                <label for="">
+                    <input type="radio" value="1" name="select"> Tất cả
+                </label>
+                <label for="">
+                    <input type="radio" value="1" name="select"> Tiêu đề
+                </label>
+                <label for="">
+                    <input type="radio" value="1" name="select"> Số hiệu văn bản
+                </label>
+                <div style="cursor: pointer;" onclick="clickShow()">
+                    <span>Thu gọn</span>
+                    <i class="fa-solid fa-caret-up"></i>
+                </div>
+            </div>
+            <div id="hiden-search-none" class="hiden-search-none">
+                <div class="hiden-search">
+                    <select id="chương" name="chuong">
+                        <option value="">Chọn Chương:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    <select id="điều" name="dieu">
+                        <option value="">Chọn Điều:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+
+                    <select id="khoản" name="khoan">
+                        <option value="">Chọn Khoản:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+
+                    </select>
+                    <select id="mục" name="muc">
+                        <option value="">Chọn Mục</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+
+                    </select>
+                    <select id="mức phạt" name="Mức Phạt Trên">
+                        <option value="">Chọn Chương:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+
+                    </select>
+                    <select id="mức phạt" name="Mức Phạt Dưới">
+                        <option value="">Chọn Chương:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+
+                    </select>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script>
+        var formbehave = document.forms['form-behave']
+        function submit() {
+            formbehave.submit();
+        }
+    </script>
+    <div class="container-content">
+        <div class="content-1" id="content-1">
+            {{#each law }}
+            <div class="container-showpara" id="container-showpara">
+                <div class="container-showpara-content">
+                    <span style="font-weight: 600; width: 80%; padding-right:50px" >
+                        {{this.content}}
+                    </span>
+                    <div>
+                        <h4 style="font-weight: 600">Chương: {{this.chuong}}</h4>
+                        <h4 style="font-weight: 600">Mục:{{this.muc}}</h4>
+                        <h4 style="font-weight: 600">Điều:{{this.dieu}}</h4>
+                        <h4 style="font-weight: 600">Khoản:{{this.khoan}}</h4>
+                        <h4 style="font-weight: 600">Mức phạt trên:{{this.priceabove}}</h4>
+                        <h4 style="font-weight: 600">Mức phạt dưới:{{this.pricebelow}}</h4>
+                    </div>
+                </div>
+
+                <div class="container-showpara-function">
+                    <div class="function-div">
+                        <i class="fa-solid fa-arrows-to-circle"></i>
+                        <a href="/{{this._id}}/noidung">
+                            <h4 style="font-weight: 600; ">Nội dung</h4>
+                        </a>
+                    </div>
+                    <div class="function-div">
+                        <i class="fa-solid fa-download"></i>
+                        <a href="/{{this.chuong}}-{{this.muc}}-{{this.dieu}}-{{this.khoan}}/dowload"><h4 style="font-weight: 600; ">Tải Xuống</h4></a>
+                    </div>
+                    <div class="function-div">
+                        <i class="fa-solid fa-align-justify"></i>
+                        <h4 style="font-weight: 600; ">Văn bản liên quan</h4>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+        <div class="content-2">
+            <div class="video-clip" style="margin-bottom: 10px">
+                <span style="background-color: e3e3e3; display:block; height:2em; padding: 5px 0;">Trước khi chặt cây,
+                    hãy trồng một rừng cây.</span>
+                <video width="310" height="230" controls>
+                    <source src="/img/video-rung.mp4" type="video/mp4">
+                </video>
+                {{!-- <iframe autoplay src="/img/video-rung_Trim.mp4" frameborder="0"></iframe> --}}
+            </div>
+            <div class="favorite">
+                <span style="background-color: e3e3e3; display:block; padding: 4px 0;">Đang được quan tâm</span>
+                <hr />
+                <div class="content-2-slide">
+                    <img src="/img/rung2.jpg" alt="" />
+                    <span>Bảo tồn các vườn quốc gia phải đặt con người làm trung
+                        tâm</span>
+                </div>
+
+                <div class="content-2-slide">
+                    <img src="/img/rung1.jpg" alt="" />
+                    <span>Phát triển nghề rừng bền vững là hạt nhân của tăng trưởng
+                        xanh</span>
+                </div>
+
+                <div class="content-2-slide">
+                    <img src="/img/rung3.jpg" alt="" />
+                    <span>Ảnh hiếm về bộ lạc sống như thời nguyên thủy trong rừng
+                        Amazon</span>
+                </div>
+
+                <div class="content-2-slide">
+                    <img src="/img/rung4.jpg" alt="" />
+                    <span>Chủ động đối phó với "giặc lửa"</span>
+                </div>
+            </div>
+
+            {{!-- Văn bản xem nhiều nhất --}}
+            <div class="more">
+                <span style="background-color: e3e3e3; display:block; height:2em; padding: 5px 0;">Văn bản xem
+                    nhiều</span>
+                <li href="">Thông báo 5034/TB-LĐTBXH 2022 nghỉ tết Âm lịch và nghỉ lễ Quốc khánh năm 2023 đối với cán
+                    bộ, công chức, viên chức và
+                    người lao động</li> <br>
+                <li href="">Hướng dẫn 05-HD/UBKTTW 2022 thực hiện một số điều trong Quy định 69-QĐ/TW</li><br>
+                <li href="">Công văn 8056/VPCP-KGVX 2022 nghỉ Tết Âm lịch và nghỉ lễ Quốc khánh năm 2023</li><br>
+                <li href="">Quyết định 4610/QĐ-UBND Hà Nội 2022 phương án ủy quyền trong giải quyết TTHC</li><br>
+                <li href="">"Công văn 3796/SGDĐT-CTTT TP.HCM 2022 công tác quản lý công trình vệ sinh trong cơ sở giáo
+                    dục
+                    "</li>
+            </div>
+        </div>
+    </div>
+    {{!-- Icon Contact --}}
+    <div>
+        <div class="icon" style="background-color:red" onclick="contact()">
+            <span class="circle_icon"
+                style="background-image: url(https://core.vchat.vn/upload/brand/2022/04/13/vc-62568080303f5-1649836160.png);"></span>
+        </div>
+    </div>
+    <div id="hotline-help">
+        <div class="tittle-help" style="display: flex; justify-content: center; align-items: center;">
+            <span style="color: white;">Chào mừng bạn đến với LuatRung.Vn</span>
+        </div>
+        <div class="hotline-help1">
+            <span style="font-size:13px">Chào bạn. Vui lòng cho chúng tôi biết thông tin để chúng tôi có thể liên hệ với
+                bạn ngay khi cần nhé.</span>
+        </div>
+        <div class="hotline-help1">
+            <span>Họ Tên*</span><br>
+            <input type="text">
+        </div>
+        <div class="hotline-help1">
+            <span>Số ĐT*</span><br>
+            <input type="tel">
+        </div>
+        <div class="hotline-help1">
+            <span>Email*</span><br>
+            <input type="email">
+        </div>
+        <button type="submit"
+            style="margin-top: 5px; height:30px; width:120px; background-color: rgb(235, 78, 82); border: none; border-radius: 6px; color:white">Gửi</button>
+    </div>
+    <div class="scroll-Top">
+        <button>
+            <i class="fa-solid fa-chevron-up"></i>
+        </button>
+    </div>
+</div>
+
+<script>
+    
+</script>

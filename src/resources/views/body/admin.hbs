@@ -1,0 +1,178 @@
+<head>
+    <title>Admin</title>
+    {{!-- <style>
+        .pagination{
+            width: fit-content;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            padding-left: 0;
+            list-style: none;
+            border-radius: 0.25rem;
+            box-shadow: 0 1px 8px 0 rgb(0 0 0 / 8%);
+        }
+        .page-link{
+            line-height: 35px;
+            text-decoration: none;
+        }
+        .page-item{
+            height: 35px;
+            padding: 0 10px;
+        }
+
+        .page-item:first-child .page-link {
+            margin-left: 0;
+            border-top-left-radius: 0.25rem;
+            border-bottom-left-radius: 0.25rem;
+        }
+        .page-item:hover {
+            color: #0056b3;
+            text-decoration: none;
+            background-color: #e9ecef;
+            border-color: #dee2e6;
+        }
+        .page-link:not(:disabled):not(.disabled) {
+            cursor: pointer;
+        }
+    </style> --}}
+</head>
+<div class="container js-modalContainer">
+    <!-- slide show  -->
+
+    <!-- start search law -->
+    <div class="road">
+        <i class="fa-solid fa-house"></i>
+        <a href="/home">Trang chủ /</a>
+        <a href="#">Admin /</a>
+    </div>
+    <div class="search-content">
+        <div class="input-search-content">
+            <div class="btn-search">
+                <input type="text" placeholder="Nhập nội dung tìm kiếm" />
+                <span>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span style="font-size: 16px;">Tìm kiếm</span>
+                </span>
+            </div>
+        </div>
+        <div class="btn">
+            <span><i class="fa-solid fa-filter"></i>Tìm kiếm nâng cao</span>
+            <label for="">
+                <input type="radio" value="1" name="select"> Tất cả
+            </label>
+            <label for="">
+                <input type="radio" value="1" name="select"> Tiêu đề
+            </label>
+            <label for="">
+                <input type="radio" value="1" name="select"> Số hiệu văn bản
+            </label>
+            <div style="cursor: pointer;" onclick="clickShow()">
+                <span>Thu gọn</span>
+                <i class="fa-solid fa-caret-up"></i>
+            </div>
+        </div>
+        <div id="hiden-search-none" class="hiden-search-none">
+            <div class="hiden-search">
+                <select id="chương" name="Chương">
+                    <option value="0">Chọn Chương:</option>
+                    <option value="1">Chương 1</option>
+                    <option value="2">Chương 2</option>
+                    <option value="3">Chương 3</option>
+                </select>
+                <select id="điều" name="Điều">
+                    <option value="">Chọn Điều:</option>
+                    <option value="1">Điều 1</option>
+                    <option value="2">Điều 2</option>
+                    <option value="3">Điều 3</option>
+                </select>
+                <select id="khoản" name="Khoản">
+                    <option value="0">Chọn Khoản:</option>
+                    <option value="1">Khoản 1</option>
+                    <option value="2">Khoản 2</option>
+                    <option value="3">Khoản 3</option>
+                </select>
+                <select id="mục" name="Mục">
+                    <option value="0">Chọn Mục:</option>
+                    <option value="1">Mục 1</option>
+                    <option value="2">Mục 2</option>
+                    <option value="3">Mục 3</option>
+                </select>
+                <select id="mức phạt" name="Mức Phạt">
+                    <option value="0">Chọn Mức Phạt:</option>
+                    <option value="1">Mức Phạt 1</option>
+                    <option value="2">Mức Phạt 2</option>
+                    <option value="3">Mức Phạt 3</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="container-content" style="display: flex; justify-content: center" >
+        <div class="content-1" id="content-1">
+            {{#each law }}
+            <div class="container-showpara">
+                <div class="container-showpara-content">
+                    <span style="font-weight: 600; ">
+                        NGHỊ ĐỊNH_{{this.chuong}}_{{this.muc}}_{{this.dieu}}_{{this.khoan}}
+                    </span>
+                    <div>
+                        <h4 style="font-weight: 600">Ngày tạo: {{this.createdAt}}</h4>
+                        <h4 style="font-weight: 600">Ngày cập nhật: {{this.updatedAt}}</h4>
+                        <h4 style="font-weight: 600">Hiệu lực: {{this.hieuluc}}</h4>
+                        <h4 style="font-weight: 600">Áp dụng: {{this.apdung}}</h4>
+
+                    </div>
+                </div>
+
+                <div class="container-showpara-function">
+                    <div class="function-div">
+                        <i class="fa-solid fa-arrows-to-circle"></i>
+                        <a href="/home/{{this._id}}/noidung">
+                            <h4 style="font-weight: 600; ">Nội dung</h4>
+                        </a>
+                    </div>
+                    <div class="function-div">
+                        <i class="fa-solid fa-download"></i>
+                        <a href="/{{this.chuong}}-{{this.muc}}-{{this.dieu}}-{{this.khoan}}/dowload"><h4 style="font-weight: 600; "> Tải Xuống</h4></a>
+                    </div>
+                    <div class="function-div">
+                        <i class="fa-solid fa-align-justify"></i>
+                        <h4 style="font-weight: 600; ">Văn bản liên quan</h4>
+                    </div>
+                    <div class="function-div function-div-last">
+                        <a href="/home/admin/{{this._id}}/edit"><i class="fa-solid fa-pen-to-square" style="margin-right: 15px;"></i></a>
+                        <a href="/home/admin/delete/{{this._id}}" id="delete" ><i class="fa-solid fa-trash"></i></a>                        
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+
+            {{!-- <div>
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="1">1</a></li>
+                    <li class="page-item"><a class="page-link" href="2">2</a></li>
+                    <li class="page-item"><a class="page-link" href="3">3</a></li>
+                    <li class="page-item"><a class="page-link" href="4">4</a></li>
+                    <li class="page-item"><a class="page-link" href="5">5</a></li>
+                    <li class="page-item"><a class="page-link" href="6">6</a></li>
+                    <li class="page-item"><a class="page-link" href="7">7</a></li>
+                    <li class="page-item"><a class="page-link" href="8">8</a></li>
+                    <li class="page-item"><a class="page-link" href="9">9</a></li>
+                    <li class="page-item"><a class="page-link" href="10">10</a></li>
+                    <li class="page-item"><a class="page-link" href="">Next</a></li>
+                </ul>
+            </div> --}}
+
+        </div>
+
+        <div class="content2" style="margin-left: 20px">
+            <a href="/home/admin/add" style="text-decoration: none;">
+                <span style="background-color: var(--btn-search-color);  color: var(--text-btn-search-color); padding: 10px 6px; font-weight: 600"> <i class="fa-solid fa-plus"></i>  Thêm điều luật</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+

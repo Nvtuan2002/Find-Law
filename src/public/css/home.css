@@ -1,0 +1,297 @@
+.search-content {
+    margin: auto;
+    /* background-color: #eaeaea; */
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 50%);
+    -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+    width: 70%;
+    height: 130px;
+    border-radius: 1px;
+    background-color: var(--box-background);
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+.input-search-content input:focus {
+    outline: none;
+}
+
+.input-search-content {
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    display: flex;
+}
+
+.btn-search {
+    display: flex;
+
+}
+
+.input-search-content .btn-search {
+    font-size: 16px;
+    height: 40px;
+    width: 70%;
+}
+
+.input-search-content input {
+    background-color: #f7f7f7;
+    height: 40px;
+    width: 82%;
+    padding-left: 10px;
+}
+
+.input-search-content .btn-search span {
+    background-color: var(--btn-search-color);
+    color: var(--text-btn-search-color);
+    padding: 0 5.58px;
+}
+
+.input-search-content .btn-search span:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.btn {
+    text-align: center;
+    line-height: 2.5;
+    display: flex;
+    justify-content: center;
+}
+
+.btn label {
+    margin: 0 25px;
+}
+
+.btn div:hover {
+    color: var(--btn-search-color);
+}
+
+/* start hiden-search */
+.hiden-search-none {
+    display: none;
+}
+
+.hiden-search {
+    display: flex;
+    justify-content: center;
+}
+
+.hiden-search select {
+    margin: 0 20px;
+    background-color: #f7f7f7;
+}
+
+/* end hiden-search */
+
+.container-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0px;
+}
+
+.content-1 {
+    width: 70%;
+}
+
+
+.content-function>i {
+    margin-top: 3px;
+    margin-right: 5px;
+
+}
+
+.content-2 {
+    margin-left: 3%;
+    height: 100%;
+    width: 27%;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: 700;
+    background-color: var(--box-background);
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+.content-2 .video-clip {
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 50%);
+    -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+
+.content-2 .video-clip span {
+    background-color: var(--tittle-box);
+    display: block;
+    height: 2em;
+    padding: 5px 0;
+}
+
+.content-2 .favorite {
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 50%);
+    -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.content-2 .favorite span:first-child {
+    background-color: var(--tittle-box);
+    display: block;
+    height: 2em;
+    padding: 5px 0;
+}
+
+.content-2-slide {
+    width: 100%;
+    display: flex;
+    margin: 15px 15px;
+}
+
+.content-2-slide>img {
+    width: 85px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.content-2-slide>span {
+    width: 50%;
+    margin-left: 5%;
+    border-bottom: solid 1px #e6e6e6;
+    font-weight: 500;
+}
+
+.content-2 .more {
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 50%);
+    -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.content-2 .more span {
+    background-color: var(--tittle-box);
+    display: block;
+    height: 2em;
+    padding: 5px 0;
+}
+
+.content-2 .more li {
+    margin: 6px 0;
+    text-align: start;
+    padding: 0 0 15px 10px;
+    border-bottom: solid 1px #e6e6e6;
+    font-weight: 500;
+}
+
+/* Start timi Help Contact */
+.icon {
+    display: block;
+    margin: 15px auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    margin-right: 5px;
+}
+
+.icon:hover {
+    opacity: 0.8;
+}
+
+.circle_icon {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Start Box Icon(Help) */
+#hotline-help {
+    display: none;
+    margin: 15px auto;
+    height: 280px;
+    width: 280px;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 50%);
+    -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 100px;
+    margin-right: 15px;
+    background-color: var(--box-background);
+    color: black
+}
+
+#hotline-help .tittle-help {
+    background-color: rgb(235, 78, 82);
+    height: 30px;
+}
+
+#hotline-help .hotline-help1 {
+    text-align: start;
+    margin: 0 12px;
+    margin-top: 5px;
+}
+
+#hotline-help .hotline-help1 input {
+    width: 100%;
+    height: 29px;
+}
+
+#hotline-help button {
+    margin-top: 5px;
+    height: 30px;
+    width: 120px;
+    background-color: rgb(235, 78, 82);
+    border: none;
+    border-radius: 6px;
+    color: var(--text-btn-search-color);
+    cursor: pointer;
+}
+
+#hotline-help button:hover {
+    opacity: 0.9;
+}
+
+.scroll-Top {
+    margin-right: 10px;
+    bottom: 155px;
+    right: 0;
+    position: fixed;
+    z-index: -1;
+    visibility: hidden;
+}
+
+.show-link {
+    visibility: visible;
+    z-index: 1;
+}
+
+.scroll-Top button {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    border: none;
+    background-color: #bdbdbd;
+    color: white;
+}
+
+.scroll-Top button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.scroll-Top i {
+    font-size: 20px;
+}

@@ -1,0 +1,74 @@
+<head><title>Đăng ký</title></head>
+<div class='container'>
+	<div class='img'>
+		<img class='wave' src='/img/wave.png' />
+		<img src='/img/logo.png' />
+	</div>
+	<div class='login-content'>
+        <form method="POST" action="/register/store">
+		<div class='form'>
+			<h2 class='title'>Đăng ký</h2>
+			<div class='input-div one'>
+				<div class='i'>
+					<i class='fas fa-user'></i>
+				</div>
+				<div class='div'>
+					<h5>Tên tài khoản</h5>
+					<input type='text' class='input' id="name" name='name' required />
+				</div>
+			</div>
+			<div class='input-div email'>
+				<div class='i'>
+					<i class='fa fa-solid fa-envelope'></i>
+				</div>
+				<div class='div'>
+					<h5>Email</h5>
+					<input type='email' class='input' id="email" name='email' required />
+				</div>
+			</div>
+			<div class='input-div pass'>
+				<div class='i'>
+					<i class='fas fa-lock'></i>
+				</div>
+				<div class='div'>
+					<h5>Mật Khẩu</h5>
+					<input type='password' class='input' id="password" name='password' required />
+				</div>
+			</div>
+			<div class='input-div pass'>
+				<div class='i'>
+					<i class='fas fa-lock'></i>
+				</div>
+				<div class='div'>
+					<h5>Nhập lại mật khẩu</h5>
+					<input type='password' class='input' id="repassword" name='repassword' required />
+				</div>
+			</div>
+			<p>Bạn đã có tài khoản chưa? <a href='/login'>Đăng nhập</a></p>
+			<button class="btn btn btn--success" id='register-btn' type="submit">Đăng Ký</button>
+		</div>
+        </form>
+	</div>
+</div>
+
+<script>
+	const inputs = document.querySelectorAll(".input");
+
+
+    function addcl() {
+        let parent = this.parentNode.parentNode;
+        parent.classList.add("focus");
+    }
+
+    function remcl() {
+        let parent = this.parentNode.parentNode;
+        if (this.value == "") {
+            parent.classList.remove("focus");
+        }
+    }
+
+    inputs.forEach(input => {
+        input.addEventListener("focus", addcl);
+        input.addEventListener("blur", remcl);
+    });
+</script>
